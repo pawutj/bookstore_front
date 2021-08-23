@@ -1,8 +1,8 @@
-const Button = () =>{
-    return (
-      
-            <button  className ="btn"> test </button>
-    )}
+import { Button } from "./css";
+
+const ButtonComponent = () =>{
+    return (<Button > test </Button>)
+}
 
 
-export default Button;
+export default ButtonComponent;
