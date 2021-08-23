@@ -1,11 +1,12 @@
 import Button from "../Button"
-
-const Navbar = () =>{
+import {Navbar} from "./css"
+const NavbarComponent = () =>{
     return (
-        < Button />
-        
+        <Navbar>
+            <button className ="btn"><p>ล็อกอินเข้าสู่ระบบ / สมัครสมาชิก</p></button>
+        </Navbar>
     )
 }
 
 
-export default Navbar;
+export default NavbarComponent;
