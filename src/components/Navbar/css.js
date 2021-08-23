@@ -10,6 +10,7 @@ export const Navbar = styled.div.attrs(() => ({
     background-color: rgba(0, 0, 0, 0.1);
     border: rgba(0, 0, 0, 0);
     color: white;
+    border-radius: 5px;
     p {
       font-size: 14px;
     }
