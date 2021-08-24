@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { colors } from "../../styles/ci";
 
 export const Navbar = styled.div.attrs(() => ({
-  className: "navbar",
+  className: "navbar px-4",
 }))`
   background-image: linear-gradient(${colors.mainBg1}, ${colors.mainBg2});
 
@@ -16,6 +16,12 @@ export const Navbar = styled.div.attrs(() => ({
     }
     :hover {
       color: white;
+    }
+  }
+
+  .logo {
+    img {
+      width: 150px;
     }
   }
 `;
